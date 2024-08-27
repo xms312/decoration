@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/xms.ico" type="image/x-icon">
+    <title>简历-徐茂森</title>
+    <style>
+        .pdfobject-container {
+            height: 100vh;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pdfContainer"></div>
+</body>
+<script src="https://unpkg.com/pdfobject"></script>
+<script>PDFObject.embed("/mydecoration.pdf", "#pdfContainer");</script>
+
+</html>
